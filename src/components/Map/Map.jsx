@@ -19,7 +19,10 @@ export default function Map({ setCoordinates, setBounds, coordinates }) {
         defaultZoom={14}
         margin={[50, 50, 50, 50]}
         options={''}
-        onChange={''}
+        onChange={(e) => {
+          setCoordinates({ lat: e.center.lat, lng: e.center.lng });
+          setBounds({ ne: e.marginBounds.ne, sw: e.marginBounds.sw });
+        }}
         onChildClick={''}></GoogleMapReact>
     </div>
   );
