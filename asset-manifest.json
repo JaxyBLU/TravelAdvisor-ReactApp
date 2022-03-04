@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/TravelAdvisor-ReactApp/static/js/main.3131d06e.js",
+    "main.js": "/TravelAdvisor-ReactApp/static/js/main.f91f6877.js",
     "index.html": "/TravelAdvisor-ReactApp/index.html",
-    "main.3131d06e.js.map": "/TravelAdvisor-ReactApp/static/js/main.3131d06e.js.map"
+    "main.f91f6877.js.map": "/TravelAdvisor-ReactApp/static/js/main.f91f6877.js.map"
   },
   "entrypoints": [
-    "static/js/main.3131d06e.js"
+    "static/js/main.f91f6877.js"
   ]
 }
